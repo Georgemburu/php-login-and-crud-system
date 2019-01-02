@@ -1,0 +1,38 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: #666;
+    background: -webkit-linear-gradient(top, rgb(127, 148, 107) 10%,#f4f4f4 11%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+nav a {
+    color: #fefefe;
+    text-decoration: none;
+    padding: 10px 0;
+}
+nav form input {
+    border: none;
+    outline: none;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 0;
+}
+nav form input:hover {
+    border: 1px solid black;
+}
+nav form input:active {
+    color: white;
+}
+main {
+    text-align: center;
+}
